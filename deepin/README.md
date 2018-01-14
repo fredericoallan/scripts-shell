@@ -4,13 +4,6 @@
 
 Este script emite mensagem de alerta caso sua bateria não esteja plugada no carregador e possua um percentual menor que 15%
 
-## Pré-requisitos
-
-Kdialog: Shell scripting with KDE
-```
-sudo apt-get install kdebase-bin
-```
-
 ## Configurar crontab
 
 1) Dê permissão de execução

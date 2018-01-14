@@ -16,8 +16,7 @@ function verificaBateria(){
     #achei magic no index.html baixado?
     if [ $batResult -lt $batAlert ]
     then
-      /usr/bin/kdialog --title "Sua bateria está muito fraca ($batResult%)" --passivepopup "Plugue seu carregador agora."
-      #echo -en "[$(date +'%I:%M:%S')] - Sua bateria está muito fraca ($batResult%)\n"
+      notify-send "Sua bateria está muito fraca ($batResult%)." "Plugue seu carregador agora."
     fi
   fi
 }
